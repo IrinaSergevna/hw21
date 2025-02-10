@@ -1,0 +1,23 @@
+# Общие игнорируемые файлы для Python проектов
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.log
+*.swp
+*.bak
+*.idea/
+.vscode/
+venv/
+env/
+
+# Прочее
+*.db
+*.sqlite3
+*.test
+*.coverage
+coverage.xml
+nosetests.xml
+
+# Конфигурационные файлы Docker
+docker-compose.override.yml
